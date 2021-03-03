@@ -2,12 +2,15 @@
 
 ## **6.3 MySQL의 주요 처리방식**
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
+스토리엔진에서 처리
+- 풀테이블 스캔
+MYSQL엔진에서 처리
+(MYSQL엔진에서는 부가적으로 처리하는 작업은 대부분 성능에 미치는 영향력이 크다.)
+-ORDER BY
 
 ## 풀 테이블 스캔
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+인덱스를 사용하지 않고 테이블의 데이터를 처음부터 끝까지 읽어 요청된 작업을 처리하는 작업
 
 ## ORDER BY 처리
 
